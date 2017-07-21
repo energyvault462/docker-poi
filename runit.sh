@@ -1,6 +1,8 @@
 #!/bin/bash
 
-docker run -it -v -v /nas/media:/nas/media energyvault462/poi 
-
-
+date
+docker run -it -v /nas/media:/nas/media energyvault462/poi 
+echo "----------------------------"
+date
+echo "----------------------------"
 
